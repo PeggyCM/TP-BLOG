@@ -2,44 +2,75 @@
 <html lang="fr">
 <head>
     <title>Les recettes de mamie</title>
+    <link rel="icon" type="image/icon" href="fraise.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
 </head>
 
-<body style="background-color: rgb(248, 214, 145);">
+<body style="background-image: url(napperon-index.avif);background-position: center; 
+    background-repeat: no-repeat;background-size:cover;">
     <header>
-        <div style="color:chocolate;text-align: center;text-decoration-line: underline;
-            text-decoration-color:rgb(193, 27, 27);text-decoration-style:wavy;font-size: 30px;">
-            <h1>Les recettes de mamie</h1>
-        </div>
-        <hr style="color:rgb(220, 136, 76);border-width: 5px;">
         <nav>
             <ul>
-                <li><a href="a-propos.html">À propos</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html"><img alt="fraise" src="fraise.png" style="width:100px"></a></li>
+                <li><a href="a-propos.html" style="color: maroon;">À propos</a></li>
+                <li><a href="contact.html" style="color: maroon;">Contact</a></li>
             </ul>
         </nav>
-        <hr style="color:rgb(220, 136, 76);border-width: 5px;">
+        <div style="color:chocolate;text-align: center;font-size: 30px;font-family: Homemade Apple, cursive;">
+            <h1>Les recettes de mamie</h1>
+        </div>
+        <hr style="color:rgb(220, 136, 76);border-width: 5px;"><br>
     </header>
     <main>
-        <section>
-            <h2>Recettes de mamie</h2><br>
-            <p>Contenu de la section.</p><br>
-
-        </section>
-        <section>
-            <article>
-                <h2>conseils pour la cuisson</h2><br>
-                <p>auteur : Ginette</p><br>
-                <p>01/02/2025.</p><br>
-                <a href="conseils.html">Lire les conseils</a><br>
-            </article>    
-        </section>
-
+        <aside style="width: 650px;height: 800px;float:right;font-style: italic;background-color: rgba(185, 116, 137, 0.6);
+        border-style:ridge;border-color: rgb(157, 102, 118);">
+            <h2 style="text-align:center;color: ivory;font-family: Homemade Apple, cursive;">Composer ses menus de la semaine</h2>
+        </aside>
+        <section style="background-color: rgba(185, 116, 137, 0.6);width: 800px;border-style:ridge;border-color: rgb(157, 102, 118);">
+            <h2 style="text-align:center;color: ivory;font-family: Homemade Apple, cursive;">Recettes de mamie</h2>
+            <Table>
+                <tr>
+                    <td style="border-style:solid;border-color: rgb(157, 102, 118);border-collapse: separate;border-radius: 10px;text-align:center">
+                        <img alt="recettes salées" src="poulet.avif" style="height:200px;"><br>
+                        <a href="recettes-salees.html" style="color: maroon;">recettes salées</a><br>
+                    </td>
+                    <td style="border-style:solid;border-color: rgb(157, 102, 118);border-collapse: separate;border-radius: 10px;text-align:center">
+                        <img alt="recettes salées" src="gateau.avif" style="height:200px;"><br>
+                        <a href="recettes-sucrees.html" style="color: maroon;">recettes sucrées</a><br>
+                    </td>
+                </tr>
+            </Table>
+        </section><br>
+        <section style="background-color: rgb(185, 116, 137, 0.6);width: 800px;border-style:ridge;border-color: rgb(157, 102, 118);">
+            <H2 style="text-align:center;color: ivory;font-family: Homemade Apple, cursive;">Retrouver tous nos conseils...</H2>
+            <table>
+                <tr>
+                    <td style="border-style:solid;border-color: rgb(157, 102, 118);border-collapse: separate;border-radius: 10px;width:220px;text-align:center">
+                       <article>
+                           <h3 style="text-align:center;color: ivory;font-family: Homemade Apple, cursive;">La cuisson</h3>
+                           <img alt="conseils cuisson" src="cuisson.png" style="height:200px;">
+                           <p>Dans cet article, vous connaîtrez les différences de températures, les méthodes de cuisson.</p>
+                           <a href="cuisson.html" style="color: maroon;">01/02/2025</a><br>
+                           <a href="cuisson.html" style="color: maroon;">auteur : Ginette</a><br>
+                        </article>     
+                    </td>
+                    <td style="border-style:solid;border-color: rgb(157, 102, 118);border-collapse: separate;border-radius: 10px;width:220px;text-align:center">
+                        <article>
+                            <h3 style="text-align:center;color: ivory;font-family: Homemade Apple, cursive;">Choisir ses produits</h3>
+                            <img alt="image de melon" src="melon.avif" style="height:200px;">
+                            <p>Retrouvez toutes nos astuces pour acheter de bons produits frais, à bonne maturité.</p>
+                            <a href="produits.html" style="color: maroon;">01/02/2025</a><br>
+                            <a href="produits.html" style="color: maroon;">auteur : Ginette</a><br>
+                        </article>
+                    </td>
+                </tr>
+            </table>
+        </section><br>
     </main>
-    <footer>
-        <p>&copy; 2025 Mon site. Tous droits réservés.</p>
-        <a href="mentions-legales.html">Mentions légales</a>
-        <a href="contact.html">Contact</a>
+    <footer style="background-color: rgb(157, 102, 118);">
+        <a href="mentions-legales.html" style="color:white">Mentions légales</a>
     </footer>
-
 </body>
 </html>

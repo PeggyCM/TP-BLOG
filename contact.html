@@ -2,34 +2,52 @@
 <html lang="fr">
 <head>
     <title>Les recettes de mamie</title>
+    <link rel="icon" type="image/icon" href="fraise.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
 </head>
 
-<body style="background-color: rgb(237, 245, 224);">
+<body style="background-image: url(napperon-index.avif);background-position: center; 
+    background-repeat: no-repeat;background-size:cover;">
     <header>
-        <h1 color="white">Les recettes de mamie</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="a-propos.html">À propos</a></li>
+                <li><a href="index.html"><img alt="fraise" src="fraise.png" style="width:100px"></a></li>
+                <li><a href="a-propos.html" style="color: maroon;">À propos</a></li>
+                <li><a href="contact.html" style="color: maroon;">Contact</a></li>
             </ul>
         </nav>
+        <div style="color:chocolate;text-align: center;font-size: 30px;font-family: Homemade Apple, cursive;">
+            <h1>Les recettes de mamie</h1>
+        </div>
+        <hr style="color:rgb(220, 136, 76);border-width: 5px;"><br>
     </header>
     <main>
-        <form>
-            <label>Nom</label><br>
-            <input type="text" name="nom" required placeholder="Nom" style="width:600px;""><br>
-            <label>Prénom</label><br>
-            <input type="text" name="prenom" required placeholder="prénom" style="width:600px;"><br>
-            <label>Email</label><br>
-            <input type="email" name="email" required placeholder="Email" style="width:600px;"><br>
-            <label>Message</label><br>
-            <textarea name="message" required placeholder="Message" style="width:600px; height: 200px;"></textarea><br><br>
-            <button type="submit">Envoyer</button>
-        </form>>
-    <footer>
-        <a href="mentions-legales.html">Mentions légales</a>
-        <a href="contact.html">Contact</a>
+        <section style="background-color: rgba(185, 116, 137, 0.6);width: 800px;border-style:ridge;border-color: rgb(157, 102, 118);
+        margin-left:350px;">
+            <h2 style="text-align:center;color: ivory;font-family: Homemade Apple, cursive;">Recettes de mamie</h2>
+                    <div  style="padding-left:100px">
+            <h2>Nous sommes à votre écoute</h2>
+            <p>Pour toute question, n'hésitez pas à nous contacter. Nous sommes là pour vous aider.<br>
+            Précisez-nous votre demande et nous vous répondrons dans les plus brefs délais.<br>
+            </p>
+            <form>
+                <label>Nom</label><br>
+                <input type="text" name="nom" required placeholder="Nom" style="width:600px;"><br>
+                <label>Prénom</label><br>
+                <input type="text" name="prenom" required placeholder="prénom" style="width:600px;"><br>
+                <label>Email</label><br>
+                <input type="email" name="email" required placeholder="Email" style="width:600px;"><br>
+                <label>Message</label><br>
+                <textarea name="message" required placeholder="Message" style="width:600px; height: 200px;"></textarea><br><br>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+        </section><br>
+    </main>
+    <footer style="background-color: rgb(157, 102, 118);">
+        <a href="mentions-legales.html" style="color:white">Mentions légales</a>
     </footer>
-
 </body>
 </html>
